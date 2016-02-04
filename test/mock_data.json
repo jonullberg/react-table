@@ -1,0 +1,194 @@
+{
+  "jobs": [
+    {
+      "JOB_ID": "1",
+      "CLIENT": "G2",
+      "PROJECT": "URL",
+      "CREATED": "date1",
+      "COMPLETED": "date1",
+      "GRADES": ["A", "B", "D"],
+      "WORKERS": ["Rat", "Hen", "Swan"]
+    },
+    {
+      "JOB_ID": "6",
+      "CLIENT": "G2",
+      "PROJECT": "NAICS",
+      "CREATED": "date2",
+      "COMPLETED": "date2",
+      "GRADES": ["B", "C", "D"],
+      "WORKERS": ["Dog", "Turtle", "Hen"]
+    },
+    {
+      "JOB_ID": "3",
+      "CLIENT": "G2",
+      "PROJECT": "NAICS",
+      "CREATED": "date3",
+      "COMPLETED": "date3",
+      "GRADES": ["A", "C", "F"],
+      "WORKERS": ["Bear", "Swan", "Frog"]
+    }
+  ],
+  "jobsSorted": [
+    {
+      "JOB_ID": "3",
+      "CLIENT": "G2",
+      "PROJECT": "NAICS",
+      "CREATED": "date3",
+      "COMPLETED": "date3",
+      "GRADES": ["A", "C", "F"],
+      "WORKERS": ["Bear", "Swan", "Frog"]
+    },
+    {
+      "JOB_ID": "4",
+      "CLIENT": "G2",
+      "PROJECT": "URL",
+      "CREATED": "date1",
+      "COMPLETED": "date1",
+      "GRADES": ["A", "B", "D"],
+      "WORKERS": ["Rat", "Hen", "Swan"]
+    },
+    {
+      "JOB_ID": "6",
+      "CLIENT": "G2",
+      "PROJECT": "NAICS",
+      "CREATED": "date2",
+      "COMPLETED": "date2",
+      "GRADES": ["B", "C", "D"],
+      "WORKERS": ["Dog", "Turtle", "Hen"]
+    }
+  ],
+  "jobsUnsorted": [
+    {
+      "JOB_ID": "4",
+      "CLIENT": "G2",
+      "PROJECT": "URL",
+      "CREATED": "date1",
+      "COMPLETED": "date1",
+      "GRADES": ["A", "B", "D"],
+      "WORKERS": ["Rat", "Hen", "Swan"]
+    },
+    {
+      "JOB_ID": "6",
+      "CLIENT": "G2",
+      "PROJECT": "NAICS",
+      "CREATED": "date2",
+      "COMPLETED": "date2",
+      "GRADES": ["B", "C", "D"],
+      "WORKERS": ["Dog", "Turtle", "Hen"]
+    },
+    {
+      "JOB_ID": "3",
+      "CLIENT": "G2",
+      "PROJECT": "NAICS",
+      "CREATED": "date3",
+      "COMPLETED": "date3",
+      "GRADES": ["A", "C", "F"],
+      "WORKERS": ["Bear", "Swan", "Frog"]
+    }
+  ],
+  "tasks": [
+    {
+      "TASK_ACCEPTED": "date1",
+      "TASK_COMPLETED": "date1",
+      "TASK_TYPE": "Init",
+      "GRADES": ["A", "B", "D"],
+      "WORKERS": ["B", "A", "F"],
+      "TASK_COST": "$0.05",
+      "TASK_TIME": "09:00",
+      "TASK_LINK": "google.com",
+      "RAW_DATA": "google.com"
+    },
+    {
+      "TASK_ACCEPTED": "date2",
+      "TASK_COMPLETED": "date2",
+      "TASK_TYPE": "Init",
+      "GRADES": ["A", "B", "D"],
+      "WORKERS": ["B", "A", "F"],
+      "TASK_COST": "$0.05",
+      "TASK_TIME": "05:00",
+      "TASK_LINK": "google.com",
+      "RAW_DATA": "google.com"
+    },
+    {
+      "TASK_ACCEPTED": "date3",
+      "TASK_COMPLETED": "date3",
+      "TASK_TYPE": "Init",
+      "GRADES": ["A", "B", "D"],
+      "WORKERS": ["B", "A", "F"],
+      "TASK_COST": "$0.05",
+      "TASK_TIME": "19:00",
+      "TASK_LINK": "google.com",
+      "RAW_DATA": "google.com"
+    }
+  ],
+  "tasksSorted": [
+    {
+      "TASK_ACCEPTED": "date1",
+      "TASK_COMPLETED": "date1",
+      "TASK_TYPE": "Init",
+      "GRADES": ["A", "B", "D"],
+      "WORKERS": ["B", "A", "F"],
+      "TASK_COST": "$0.05",
+      "TASK_TIME": "09:00",
+      "TASK_LINK": "google.com",
+      "RAW_DATA": "google.com"
+    },
+    {
+      "TASK_ACCEPTED": "date2",
+      "TASK_COMPLETED": "date2",
+      "TASK_TYPE": "Init",
+      "GRADES": ["A", "B", "D"],
+      "WORKERS": ["B", "A", "F"],
+      "TASK_COST": "$0.05",
+      "TASK_TIME": "05:00",
+      "TASK_LINK": "google.com",
+      "RAW_DATA": "google.com"
+    },
+    {
+      "TASK_ACCEPTED": "date3",
+      "TASK_COMPLETED": "date3",
+      "TASK_TYPE": "Init",
+      "GRADES": ["A", "B", "D"],
+      "WORKERS": ["B", "A", "F"],
+      "TASK_COST": "$0.05",
+      "TASK_TIME": "19:00",
+      "TASK_LINK": "google.com",
+      "RAW_DATA": "google.com"
+    }
+  ],
+  "tasksUnsorted": [
+    {
+      "TASK_ACCEPTED": "date2",
+      "TASK_COMPLETED": "date2",
+      "TASK_TYPE": "Init",
+      "GRADES": ["A", "B", "D"],
+      "WORKERS": ["B", "A", "F"],
+      "TASK_COST": "$0.05",
+      "TASK_TIME": "05:00",
+      "TASK_LINK": "google.com",
+      "RAW_DATA": "google.com"
+    },
+    {
+      "TASK_ACCEPTED": "date1",
+      "TASK_COMPLETED": "date1",
+      "TASK_TYPE": "Init",
+      "GRADES": ["A", "B", "D"],
+      "WORKERS": ["B", "A", "F"],
+      "TASK_COST": "$0.05",
+      "TASK_TIME": "09:00",
+      "TASK_LINK": "google.com",
+      "RAW_DATA": "google.com"
+    },
+    {
+      "TASK_ACCEPTED": "date3",
+      "TASK_COMPLETED": "date3",
+      "TASK_TYPE": "Init",
+      "GRADES": ["A", "B", "D"],
+      "WORKERS": ["B", "A", "F"],
+      "TASK_COST": "$0.05",
+      "TASK_TIME": "19:00",
+      "TASK_LINK": "google.com",
+      "RAW_DATA": "google.com"
+    }
+  ]
+}
