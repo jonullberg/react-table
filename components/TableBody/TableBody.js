@@ -11,7 +11,7 @@ import React, { Component, PropTypes } from 'react';
 
 import {
   TableRow
-} from '../TableRow/TableRow';
+} from '../';
 
 export default class TableBody extends Component {
   render() {

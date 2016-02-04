@@ -13,8 +13,10 @@
 
 import React, { Component, PropTypes } from 'react';
 
-import TableHeader from './TableHeader/TableHeader';
-import TableBody from './TableBody/TableBody';
+import {
+  TableHeader,
+  TableBody
+} from './components';
 
 export default class DataTable extends Component {
   render() {

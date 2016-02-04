@@ -3,7 +3,7 @@
 import React from 'react';
 import { expect } from 'chai';
 import TestUtils from 'react-addons-test-utils';
-import TableBody from '../TableBody/TableBody';
+import { TableBody } from '../components';
 
 import mockData from './mock_data.json';
 

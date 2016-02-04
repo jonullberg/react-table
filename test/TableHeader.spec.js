@@ -3,7 +3,7 @@
 import React from 'react';
 import { expect } from 'chai';
 import TestUtils from 'react-addons-test-utils';
-import TableHeader from '../TableHeader/TableHeader';
+import { TableHeader } from '../components';
 
 import mockData from './mock_data.json';
 
